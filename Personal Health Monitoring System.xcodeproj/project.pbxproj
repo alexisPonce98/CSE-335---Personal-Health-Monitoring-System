@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6266B28326291173001BB931 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6266B28226291173001BB931 /* AppDelegate.swift */; };
+		6266B28526291173001BB931 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6266B28426291173001BB931 /* SceneDelegate.swift */; };
+		6266B28726291173001BB931 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6266B28626291173001BB931 /* ViewController.swift */; };
+		6266B28A26291173001BB931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6266B28826291173001BB931 /* Main.storyboard */; };
+		6266B28D26291173001BB931 /* Personal_Health_Monitoring_System.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6266B28B26291173001BB931 /* Personal_Health_Monitoring_System.xcdatamodeld */; };
+		6266B28F26291174001BB931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6266B28E26291174001BB931 /* Assets.xcassets */; };
+		6266B29226291174001BB931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6266B29026291174001BB931 /* LaunchScreen.storyboard */; };
+		6266B29D26291175001BB931 /* Personal_Health_Monitoring_SystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6266B29C26291175001BB931 /* Personal_Health_Monitoring_SystemTests.swift */; };
+		6266B2A826291175001BB931 /* Personal_Health_Monitoring_SystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6266B2A726291175001BB931 /* Personal_Health_Monitoring_SystemUITests.swift */; };
+		6266B2B7262912E5001BB931 /* Health+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6266B2B5262912E5001BB931 /* Health+CoreDataClass.swift */; };
+		6266B2B8262912E5001BB931 /* Health+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6266B2B6262912E5001BB931 /* Health+CoreDataProperties.swift */; };
+		6266B2BA262912FA001BB931 /* healtModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6266B2B9262912FA001BB931 /* healtModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6266B29926291175001BB931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6266B27726291173001BB931 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6266B27E26291173001BB931;
+			remoteInfo = "Personal Health Monitoring System";
+		};
+		6266B2A426291175001BB931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6266B27726291173001BB931 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6266B27E26291173001BB931;
+			remoteInfo = "Personal Health Monitoring System";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6266B27F26291173001BB931 /* Personal Health Monitoring System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personal Health Monitoring System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6266B28226291173001BB931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6266B28426291173001BB931 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6266B28626291173001BB931 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6266B28926291173001BB931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6266B28C26291173001BB931 /* Personal_Health_Monitoring_System.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Personal_Health_Monitoring_System.xcdatamodel; sourceTree = "<group>"; };
+		6266B28E26291174001BB931 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6266B29126291174001BB931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6266B29326291174001BB931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6266B29826291175001BB931 /* Personal Health Monitoring SystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Personal Health Monitoring SystemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6266B29C26291175001BB931 /* Personal_Health_Monitoring_SystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personal_Health_Monitoring_SystemTests.swift; sourceTree = "<group>"; };
+		6266B29E26291175001BB931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6266B2A326291175001BB931 /* Personal Health Monitoring SystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Personal Health Monitoring SystemUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6266B2A726291175001BB931 /* Personal_Health_Monitoring_SystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personal_Health_Monitoring_SystemUITests.swift; sourceTree = "<group>"; };
+		6266B2A926291175001BB931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6266B2B5262912E5001BB931 /* Health+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Health+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6266B2B6262912E5001BB931 /* Health+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Health+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6266B2B9262912FA001BB931 /* healtModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = healtModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6266B27C26291173001BB931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6266B29526291175001BB931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6266B2A026291175001BB931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6266B27626291173001BB931 = {
+			isa = PBXGroup;
+			children = (
+				6266B28126291173001BB931 /* Personal Health Monitoring System */,
+				6266B29B26291175001BB931 /* Personal Health Monitoring SystemTests */,
+				6266B2A626291175001BB931 /* Personal Health Monitoring SystemUITests */,
+				6266B28026291173001BB931 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6266B28026291173001BB931 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6266B27F26291173001BB931 /* Personal Health Monitoring System.app */,
+				6266B29826291175001BB931 /* Personal Health Monitoring SystemTests.xctest */,
+				6266B2A326291175001BB931 /* Personal Health Monitoring SystemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6266B28126291173001BB931 /* Personal Health Monitoring System */ = {
+			isa = PBXGroup;
+			children = (
+				6266B2B5262912E5001BB931 /* Health+CoreDataClass.swift */,
+				6266B2B6262912E5001BB931 /* Health+CoreDataProperties.swift */,
+				6266B2B9262912FA001BB931 /* healtModel.swift */,
+				6266B28226291173001BB931 /* AppDelegate.swift */,
+				6266B28426291173001BB931 /* SceneDelegate.swift */,
+				6266B28626291173001BB931 /* ViewController.swift */,
+				6266B28826291173001BB931 /* Main.storyboard */,
+				6266B28E26291174001BB931 /* Assets.xcassets */,
+				6266B29026291174001BB931 /* LaunchScreen.storyboard */,
+				6266B29326291174001BB931 /* Info.plist */,
+				6266B28B26291173001BB931 /* Personal_Health_Monitoring_System.xcdatamodeld */,
+			);
+			path = "Personal Health Monitoring System";
+			sourceTree = "<group>";
+		};
+		6266B29B26291175001BB931 /* Personal Health Monitoring SystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				6266B29C26291175001BB931 /* Personal_Health_Monitoring_SystemTests.swift */,
+				6266B29E26291175001BB931 /* Info.plist */,
+			);
+			path = "Personal Health Monitoring SystemTests";
+			sourceTree = "<group>";
+		};
+		6266B2A626291175001BB931 /* Personal Health Monitoring SystemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6266B2A726291175001BB931 /* Personal_Health_Monitoring_SystemUITests.swift */,
+				6266B2A926291175001BB931 /* Info.plist */,
+			);
+			path = "Personal Health Monitoring SystemUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6266B27E26291173001BB931 /* Personal Health Monitoring System */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6266B2AC26291175001BB931 /* Build configuration list for PBXNativeTarget "Personal Health Monitoring System" */;
+			buildPhases = (
+				6266B27B26291173001BB931 /* Sources */,
+				6266B27C26291173001BB931 /* Frameworks */,
+				6266B27D26291173001BB931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Personal Health Monitoring System";
+			productName = "Personal Health Monitoring System";
+			productReference = 6266B27F26291173001BB931 /* Personal Health Monitoring System.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6266B29726291175001BB931 /* Personal Health Monitoring SystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6266B2AF26291175001BB931 /* Build configuration list for PBXNativeTarget "Personal Health Monitoring SystemTests" */;
+			buildPhases = (
+				6266B29426291175001BB931 /* Sources */,
+				6266B29526291175001BB931 /* Frameworks */,
+				6266B29626291175001BB931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6266B29A26291175001BB931 /* PBXTargetDependency */,
+			);
+			name = "Personal Health Monitoring SystemTests";
+			productName = "Personal Health Monitoring SystemTests";
+			productReference = 6266B29826291175001BB931 /* Personal Health Monitoring SystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6266B2A226291175001BB931 /* Personal Health Monitoring SystemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6266B2B226291175001BB931 /* Build configuration list for PBXNativeTarget "Personal Health Monitoring SystemUITests" */;
+			buildPhases = (
+				6266B29F26291175001BB931 /* Sources */,
+				6266B2A026291175001BB931 /* Frameworks */,
+				6266B2A126291175001BB931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6266B2A526291175001BB931 /* PBXTargetDependency */,
+			);
+			name = "Personal Health Monitoring SystemUITests";
+			productName = "Personal Health Monitoring SystemUITests";
+			productReference = 6266B2A326291175001BB931 /* Personal Health Monitoring SystemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6266B27726291173001BB931 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Arizona State University";
+				TargetAttributes = {
+					6266B27E26291173001BB931 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					6266B29726291175001BB931 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 6266B27E26291173001BB931;
+					};
+					6266B2A226291175001BB931 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 6266B27E26291173001BB931;
+					};
+				};
+			};
+			buildConfigurationList = 6266B27A26291173001BB931 /* Build configuration list for PBXProject "Personal Health Monitoring System" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6266B27626291173001BB931;
+			productRefGroup = 6266B28026291173001BB931 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6266B27E26291173001BB931 /* Personal Health Monitoring System */,
+				6266B29726291175001BB931 /* Personal Health Monitoring SystemTests */,
+				6266B2A226291175001BB931 /* Personal Health Monitoring SystemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6266B27D26291173001BB931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6266B29226291174001BB931 /* LaunchScreen.storyboard in Resources */,
+				6266B28F26291174001BB931 /* Assets.xcassets in Resources */,
+				6266B28A26291173001BB931 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6266B29626291175001BB931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6266B2A126291175001BB931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6266B27B26291173001BB931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6266B2B7262912E5001BB931 /* Health+CoreDataClass.swift in Sources */,
+				6266B28D26291173001BB931 /* Personal_Health_Monitoring_System.xcdatamodeld in Sources */,
+				6266B28726291173001BB931 /* ViewController.swift in Sources */,
+				6266B2BA262912FA001BB931 /* healtModel.swift in Sources */,
+				6266B2B8262912E5001BB931 /* Health+CoreDataProperties.swift in Sources */,
+				6266B28326291173001BB931 /* AppDelegate.swift in Sources */,
+				6266B28526291173001BB931 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6266B29426291175001BB931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6266B29D26291175001BB931 /* Personal_Health_Monitoring_SystemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6266B29F26291175001BB931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6266B2A826291175001BB931 /* Personal_Health_Monitoring_SystemUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6266B29A26291175001BB931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6266B27E26291173001BB931 /* Personal Health Monitoring System */;
+			targetProxy = 6266B29926291175001BB931 /* PBXContainerItemProxy */;
+		};
+		6266B2A526291175001BB931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6266B27E26291173001BB931 /* Personal Health Monitoring System */;
+			targetProxy = 6266B2A426291175001BB931 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6266B28826291173001BB931 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6266B28926291173001BB931 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6266B29026291174001BB931 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6266B29126291174001BB931 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6266B2AA26291175001BB931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6266B2AB26291175001BB931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6266B2AD26291175001BB931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Personal Health Monitoring System/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ASU.Personal-Health-Monitoring-System";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6266B2AE26291175001BB931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Personal Health Monitoring System/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ASU.Personal-Health-Monitoring-System";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6266B2B026291175001BB931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Personal Health Monitoring SystemTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ASU.Personal-Health-Monitoring-SystemTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Personal Health Monitoring System.app/Personal Health Monitoring System";
+			};
+			name = Debug;
+		};
+		6266B2B126291175001BB931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Personal Health Monitoring SystemTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ASU.Personal-Health-Monitoring-SystemTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Personal Health Monitoring System.app/Personal Health Monitoring System";
+			};
+			name = Release;
+		};
+		6266B2B326291175001BB931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Personal Health Monitoring SystemUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ASU.Personal-Health-Monitoring-SystemUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Personal Health Monitoring System";
+			};
+			name = Debug;
+		};
+		6266B2B426291175001BB931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Personal Health Monitoring SystemUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ASU.Personal-Health-Monitoring-SystemUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Personal Health Monitoring System";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6266B27A26291173001BB931 /* Build configuration list for PBXProject "Personal Health Monitoring System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6266B2AA26291175001BB931 /* Debug */,
+				6266B2AB26291175001BB931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6266B2AC26291175001BB931 /* Build configuration list for PBXNativeTarget "Personal Health Monitoring System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6266B2AD26291175001BB931 /* Debug */,
+				6266B2AE26291175001BB931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6266B2AF26291175001BB931 /* Build configuration list for PBXNativeTarget "Personal Health Monitoring SystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6266B2B026291175001BB931 /* Debug */,
+				6266B2B126291175001BB931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6266B2B226291175001BB931 /* Build configuration list for PBXNativeTarget "Personal Health Monitoring SystemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6266B2B326291175001BB931 /* Debug */,
+				6266B2B426291175001BB931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6266B28B26291173001BB931 /* Personal_Health_Monitoring_System.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6266B28C26291173001BB931 /* Personal_Health_Monitoring_System.xcdatamodel */,
+			);
+			currentVersion = 6266B28C26291173001BB931 /* Personal_Health_Monitoring_System.xcdatamodel */;
+			path = Personal_Health_Monitoring_System.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6266B27726291173001BB931 /* Project object */;
+}
