@@ -74,10 +74,10 @@
             </objects>
             <point key="canvasLocation" x="1849" y="462"/>
         </scene>
-        <!--View Controller-->
+        <!--My Health View Controller-->
         <scene sceneID="QWc-E7-VCZ">
             <objects>
-                <viewController id="lyD-zD-6ak" sceneMemberID="viewController">
+                <viewController id="lyD-zD-6ak" customClass="myHealthViewController" customModule="Personal_Health_Monitoring_System" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Nvq-T4-ufk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -99,10 +99,10 @@
             </objects>
             <point key="canvasLocation" x="2739" y="79"/>
         </scene>
-        <!--View Controller-->
+        <!--Add View Controller-->
         <scene sceneID="Z7U-39-eTg">
             <objects>
-                <viewController id="HLz-hz-xIs" sceneMemberID="viewController">
+                <viewController id="HLz-hz-xIs" customClass="addViewController" customModule="Personal_Health_Monitoring_System" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cDX-ID-3Rz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -165,11 +165,26 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2m1-Qd-YPg">
+                                <rect key="frame" x="177" y="613" width="54" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="save:" destination="HLz-hz-xIs" eventType="touchUpInside" id="qgj-rd-Qwv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Ru1-PC-wyD"/>
                     </view>
                     <navigationItem key="navigationItem" id="h4v-bg-ftw"/>
+                    <connections>
+                        <outlet property="dia" destination="oK0-o8-AHl" id="tKB-LL-HkF"/>
+                        <outlet property="other" destination="d8c-tB-f9K" id="sX0-wR-I10"/>
+                        <outlet property="sugar" destination="1x9-V0-t5j" id="0j6-S6-Rt8"/>
+                        <outlet property="sys" destination="XF6-eb-7mV" id="GDN-Cl-ESz"/>
+                        <outlet property="weight" destination="8V4-28-Hng" id="yV4-cT-Kyu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CfW-dE-Jms" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

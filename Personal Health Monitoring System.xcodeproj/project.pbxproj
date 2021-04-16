@@ -16,9 +16,12 @@
 		6266B29226291174001BB931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6266B29026291174001BB931 /* LaunchScreen.storyboard */; };
 		6266B29D26291175001BB931 /* Personal_Health_Monitoring_SystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6266B29C26291175001BB931 /* Personal_Health_Monitoring_SystemTests.swift */; };
 		6266B2A826291175001BB931 /* Personal_Health_Monitoring_SystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6266B2A726291175001BB931 /* Personal_Health_Monitoring_SystemUITests.swift */; };
-		6266B2B7262912E5001BB931 /* Health+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6266B2B5262912E5001BB931 /* Health+CoreDataClass.swift */; };
-		6266B2B8262912E5001BB931 /* Health+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6266B2B6262912E5001BB931 /* Health+CoreDataProperties.swift */; };
 		6266B2BA262912FA001BB931 /* healtModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6266B2B9262912FA001BB931 /* healtModel.swift */; };
+		627658C6262A1E0E00E3D6E6 /* addViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627658C5262A1E0E00E3D6E6 /* addViewController.swift */; };
+		627658C8262A1E3500E3D6E6 /* myHealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627658C7262A1E3500E3D6E6 /* myHealthViewController.swift */; };
+		627658CA262A1E5900E3D6E6 /* riskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627658C9262A1E5900E3D6E6 /* riskViewController.swift */; };
+		627658CD262A24D600E3D6E6 /* Health+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627658CB262A24D600E3D6E6 /* Health+CoreDataClass.swift */; };
+		627658CE262A24D600E3D6E6 /* Health+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627658CC262A24D600E3D6E6 /* Health+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +57,12 @@
 		6266B2A326291175001BB931 /* Personal Health Monitoring SystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Personal Health Monitoring SystemUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6266B2A726291175001BB931 /* Personal_Health_Monitoring_SystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personal_Health_Monitoring_SystemUITests.swift; sourceTree = "<group>"; };
 		6266B2A926291175001BB931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6266B2B5262912E5001BB931 /* Health+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Health+CoreDataClass.swift"; sourceTree = "<group>"; };
-		6266B2B6262912E5001BB931 /* Health+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Health+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		6266B2B9262912FA001BB931 /* healtModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = healtModel.swift; sourceTree = "<group>"; };
+		627658C5262A1E0E00E3D6E6 /* addViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addViewController.swift; sourceTree = "<group>"; };
+		627658C7262A1E3500E3D6E6 /* myHealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myHealthViewController.swift; sourceTree = "<group>"; };
+		627658C9262A1E5900E3D6E6 /* riskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = riskViewController.swift; sourceTree = "<group>"; };
+		627658CB262A24D600E3D6E6 /* Health+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Health+CoreDataClass.swift"; sourceTree = "<group>"; };
+		627658CC262A24D600E3D6E6 /* Health+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Health+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +113,12 @@
 		6266B28126291173001BB931 /* Personal Health Monitoring System */ = {
 			isa = PBXGroup;
 			children = (
-				6266B2B5262912E5001BB931 /* Health+CoreDataClass.swift */,
-				6266B2B6262912E5001BB931 /* Health+CoreDataProperties.swift */,
+				627658CB262A24D600E3D6E6 /* Health+CoreDataClass.swift */,
+				627658CC262A24D600E3D6E6 /* Health+CoreDataProperties.swift */,
 				6266B2B9262912FA001BB931 /* healtModel.swift */,
+				627658C5262A1E0E00E3D6E6 /* addViewController.swift */,
+				627658C7262A1E3500E3D6E6 /* myHealthViewController.swift */,
+				627658C9262A1E5900E3D6E6 /* riskViewController.swift */,
 				6266B28226291173001BB931 /* AppDelegate.swift */,
 				6266B28426291173001BB931 /* SceneDelegate.swift */,
 				6266B28626291173001BB931 /* ViewController.swift */,
@@ -271,13 +280,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6266B2B7262912E5001BB931 /* Health+CoreDataClass.swift in Sources */,
 				6266B28D26291173001BB931 /* Personal_Health_Monitoring_System.xcdatamodeld in Sources */,
+				627658CD262A24D600E3D6E6 /* Health+CoreDataClass.swift in Sources */,
+				627658C6262A1E0E00E3D6E6 /* addViewController.swift in Sources */,
 				6266B28726291173001BB931 /* ViewController.swift in Sources */,
+				627658C8262A1E3500E3D6E6 /* myHealthViewController.swift in Sources */,
 				6266B2BA262912FA001BB931 /* healtModel.swift in Sources */,
-				6266B2B8262912E5001BB931 /* Health+CoreDataProperties.swift in Sources */,
 				6266B28326291173001BB931 /* AppDelegate.swift in Sources */,
 				6266B28526291173001BB931 /* SceneDelegate.swift in Sources */,
+				627658CA262A1E5900E3D6E6 /* riskViewController.swift in Sources */,
+				627658CE262A24D600E3D6E6 /* Health+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
