@@ -101,11 +101,11 @@ class addViewController: UIViewController {
         if(segue.identifier == "enterData"){
             let new = segue.description as? ViewController
             new?.fromAdd = true
-            new?.returnSys = self.getSys
-            new?.returnDia = self.getDia
-            new?.returnWeight = self.getWeight
-            new?.returnOther = self.getOther
-            new?.returnSug = self.sug
+            new?.returnSys = Int(self.getSys)
+            new?.returnDia = Int(self.getDia)
+            new?.returnWeight = Int(self.getWeight)
+            new?.returnOther = (self.getOther)
+            new?.returnSug = Int(self.sug)
             
         }
     }
