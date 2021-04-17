@@ -34,6 +34,7 @@ class addViewController: UIViewController {
         var noSymp = false
         if(self.sys.text != ""){
             getSys = self.sys.text!
+            self.sys.text = ""
         }else{
             let alert = UIAlertController(title: "Forgot to enter your systolic boold pressure", message: "please check others", preferredStyle: .alert)
             let action = UIAlertAction(title: "OK", style: .default){(action) in
