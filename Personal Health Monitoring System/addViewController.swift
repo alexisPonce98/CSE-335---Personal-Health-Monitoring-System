@@ -57,7 +57,7 @@ class addViewController: UIViewController {
             }
         }
         if(self.weight.text != ""){
-            sug = self.weight.text!
+            getWeight = self.weight.text!
             self.weight.text = ""
         }else{
             if(!checked){
@@ -70,7 +70,7 @@ class addViewController: UIViewController {
             }
         }
         if(self.sugar.text != ""){
-            getWeight = self.sugar.text!
+            self.sug = self.sugar.text!
             self.sugar.text = ""
         }else{
             if(!checked){
@@ -88,6 +88,14 @@ class addViewController: UIViewController {
         }else{
             noSymp = true
         }
+        if(!checked){
+            let alert = UIAlertController(title: "Your data has been saved", message: "Good job on keeping track of your health", preferredStyle: .alert)
+            let action = UIAlertAction(title: "OK", style: .default){(action) in
+                
+            }
+            alert.addAction(action)
+            self.present(alert,animated: true, completion: nil)
+        }
         checked = false
         
     }
@@ -99,8 +107,9 @@ class addViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
-        if(segue.identifier == "enterData"){
+        if(segue.identifier == "backToView"){
             let new = segue.description as? ViewController
+            print("it is working")
             new?.fromAdd = true
             new?.returnSys = Int(self.getSys)
             new?.returnDia = Int(self.getDia)

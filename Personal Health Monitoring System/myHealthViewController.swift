@@ -9,14 +9,54 @@
 import UIKit
 
 class myHealthViewController: UIViewController {
-
+    var sys = [Int]()
+    var dia = [Int]()
+    var weight = [Int]()
+    var sugar = [Int]()
+    
+    @IBOutlet weak var sysText: UITextView!
+    @IBOutlet weak var weightText: UITextView!
+    @IBOutlet weak var sugarText: UITextView!
+    @IBOutlet weak var diaText: UITextView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        for (index,val) in sys.enumerated(){
+            print(val)
+        }
+        for (index,val) in dia.enumerated(){
+            print(val)
+        }
+        for (index,val) in weight.enumerated(){
+            print(val)
+        }
+        for (index,val) in sugar.enumerated(){
+            print(val)
+        }
+        showHealth()
         // Do any additional setup after loading the view.
     }
     
-
+    func showHealth(){
+        self.sysText.text = ""
+        self.diaText.text = ""
+        self.weightText.text = ""
+        self.sugarText.text = ""
+        for (index, val) in self.sys.enumerated(){
+            self.sysText.text += "\(String(val)) \n"
+        }
+        for (index,val) in self.dia.enumerated(){
+            self.diaText.text += "\(String(val)) \n"
+        }
+        for (index,val) in self.weight.enumerated(){
+            self.sugarText.text += "\(String(val)) \n"
+        }
+        for (index,val) in self.sugar.enumerated(){
+            self.weightText.text += "\(String(val)) \n"
+        }
+        
+    }
     /*
     // MARK: - Navigation
 
