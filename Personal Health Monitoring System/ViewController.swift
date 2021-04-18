@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         let dateStr = "\(realComp.month!), \(realComp.day!) \(realComp.year!)"
         H = healthModel(manage: context)
         hFetch = (H?.fetch())!
-        H?.clearData()
+        //H?.clearData()
         if(fromAdd){
             if(returnSug != nil){
             if(self.returnOther == ""){
